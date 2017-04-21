@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
+	<title>Anshuman Dhuliya</title>
+</head>
+<body class="light blue smaller freestyle01">
+
+<div id="layout">
+ 
+	<div class="row smaller">
+		<div class="col c6">
+			<h2><a href="index.html">Anshuman Dhuliya</a></h2>
+		</div>
+  
+        <!-- Uncomment any one of the below img tags to set the photo, or preferably, add any photo of your own :) 
+             Some examples are given below and images are in the images/ directory. 
+             When you add your own photo, make sure you set the desired 'width'. The browser sets the height correspondingly.
+        -->
+	<div class="row">
+		<!--<div class="col c12 alignright">			
+                        <img src="images/my.png" width="30%" height="20%" alt="" />
+			<img src="images/front.jpg" width="960" height="240" alt="" />
+			<img src="images/lens.png" width="20%" height="20%" alt="" />
+			<img src="images/phdprofile.gif" width="660"alt="" />
+			<img src="images/phdbrain.gif" width="960" alt="" />
+
+			<img src="images/phdbrain2.gif" width="960" alt="" />
+                -->
+        	</div>
+	</div>
+ 
+        <!-- Add more li tags to add more menu items (and pages) if necessary. Correspondingly, add a div with the same #id as 
+             done below. An example is given for the #news page. Uncomment the list item to enable.
+        -->
+	<div class="row">
+                <!-- Main Menu -->
+		<div class="col c2 alignleft">
+			<ul class="menu">
+			        <li><a href="#home" onclick="showTab('#home');">Home</a></li>
+        			<li><a href="#research" onclick="showTab('#research');">Research</a></li>
+	        		<li><a href="#contact" onclick="showTab('#contact');">Contact</a></li>
+	        	<!--	<li><a href="#news" onclick="showTab('#news');">News</a></li> -->
+	        	</ul>
+		</div>
+ 
+                <!-- The Home page-->
+	        <div class="col c8" id="#home" style="display:none">
+                	<h2>Home</h2>
+               		<p>I am a PhD candidate at the <a href="http://www.cse.iitb.ac.in">Department of CSE</a>, <a href="http://www.iitb.ac.in">IIT Bombay</a>, since Autumn 2014. I am working under the guidance of <a href="http://www.cse.iitb.ac.in/~uday">Prof Uday Khedkar</a>.
+
+		        <h3>Research Interests</h3>
+		        <p>I am pursuing research in the area of compilers where I am applying Data Flow Techniques to extract important data flow information to smartly optimize a given C code, in ways which would otherwise not be possible. Please find more information <a href="#research" onclick="showTab('#research');">here</a>.</p>
+				</div>
+
+                <!-- The Research page-->
+	        <div class="col c8" id="#research" style="display:none">
+		        <h2>Research</h2>
+		        <p>My primary objective is to build suitable abstractions for data flow analysis and construct a new language around it, such that the data flow programs are much easier to express than using the contemporary methods.</p>
+		        <p>My other interests include Congnitive Science and Philosophy, which keeps me buzy in my spare time.</p>
+				</div>
+
+	        <div class="col c8" id="#research" style="display:none">
+		        <h2>Research</h2>
+				</div>
+
+                <!-- The Contact page-->
+                <div class="col c8" id="#contact" style="display:none">
+		        <h2>Contact</h2>
+                        <br />
+                        <section id="contact" style="font-size:1.1em">
+                          <address itemscope itemtype="http://data-vocabulary.org/Person">
+                            <b><span itemprop="name">Anshuman Dhuliya</span></b><br />
+                            <span itemprop="role">PhD Scholar</span><br /><br />
+                            <b>Postal Address:</b><br />
+                            <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+                              <span itemprop="street-address">GCC Lab, Old CSE Building</span>,<br />
+                              <span itemprop="locality">IIT Bombay, Powai</span>,<br />
+                              <span itemprop="region">Mumbai - 400076</span>,<br />
+                              <span itemprop="country-name">India</span>.<br />
+                            </span>
+                                <br />
+                            <b>Phone:</b> <span itemprop="tel">+91 9559302396</span><br />
+							<b>Email:</b> dhuliya{at}cse{dot}iitb{dot}ac{dot}in<br />
+                                <br/>
+                        </address>
+                        </section>
+               </div>
+
+                <!-- The News page. Currently disabled. To enable, uncomment the menu list item above-->
+	        <div class="col c8" id="#news" style="display:none">
+		        <h2>News</h2>
+		        <p>[Write about your latest awards, fellowships, internships here! :-)]</p>
+
+                        <!--Uncomment the below to make a list-->
+                        <div id="News">
+                		<h2>News</h2>
+                                <ol>
+                                       <li>News Item 1</li>
+                                       <li>News Item 2</li>
+                                </ol>
+                        </div>
+	        </div>
+
+ 
+                <!--Uncomment to add a right side column if you want to add external links or anything else. -->
+<!--                
+		<div class="col c2">
+			<h3>Hobbies</h3>
+			<p><a href="https://www.facebook.com/ranjinisuta">My poetry</a><br />
+			<a href="http://kiviguttu.blogspot.in/">My blog</a><br />
+			<a href="http://www.youtube.com/channel/UC_2z2cpSGgJBSNwgpKnswxw">My video</a></p>
+		</div>
+-->                
+	</div>
+ 
+	<div id="footer" class="row">
+		<div class="col c12 aligncenter">                      
+			<!--<h3>&copy; 2015 Anshuman Dhuliya</h3>-->
+			<h3> Anshuman Dhuliya </h3>
+
+		</div>
+	</div>
+ </div>
+</body>
+
+<script type="text/javascript">
+var current = '#home';
+if(window.location.hash != ""){
+        current = window.location.hash;
+}
+
+function showTab(tab){
+        document.getElementById(current).style.display = "none";
+        current = tab;
+        document.getElementById(tab).style.display = "block";
+}
+
+showTab(current);
+</script>
+</html>

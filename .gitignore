@@ -1,3 +1,6 @@
 tmp/
+*.swp
+a.out
+*.log
 
 

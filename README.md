@@ -1,12 +1,10 @@
 My Github Blogging Site
 =======================
 
-How it works
---------------
-
 A simple (static-markdown) blogging site built from scratch.
 
-How to use this repo:
+How to use?
+--------------
 
 * Go to the `src/` folder.
 * Create or edit any `<logicalname>.md` file (one post one file)
@@ -20,7 +18,7 @@ How to use this repo:
 The `static/main.css` can be edited for custom style.
 
 
-How things work inside:
+How it works?
 -----------------------
 
 The whole site source is in `src/` folder. All posts are maintained in markdown format. Only the `common-header.html` and `common-footer.html` files are pure html5.

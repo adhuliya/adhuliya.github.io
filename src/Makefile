@@ -5,12 +5,12 @@ HTMLFILES = $(addprefix ../, $(Z))
 
 all: $(HTMLFILES)
 
-tmp/%.tmp: %.md
-	markdown $< > $@
+../%.html: common-header.html %.md common-footer.html
+	markdown  $(*).md > $(*).tmp
+	cat common-header.html $(*).tmp common-footer.html > $@
+	rm $(*).tmp
 
-../%.html: common-header.html tmp/%.tmp common-footer.html
-	cat $+ > $@
-
+.PHONY: all
 .DEFAULT: all
 .PRECIOUS: tmp/%.tmp
 

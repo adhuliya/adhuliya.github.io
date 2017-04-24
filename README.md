@@ -3,7 +3,7 @@ My Github Blogging Site
 
 It has always been so rewarding reading other netizens blogs, that the only way to repay back is to start the good work yourself.
 
-This blog is dedicated to the idea of *learning by sharing*. Thanks to [`markdown`] [markdown], the best blogging language out there.
+This blog is dedicated to the idea of *learning by sharing*. Thanks to [`markdown`][markdown], the best blogging language out there.
 
 [markdown]: http://daringfireball.net/projects/markdown/
 

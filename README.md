@@ -1,7 +1,11 @@
 My Github Blogging Site
 =======================
 
-A simple (static-markdown) blogging site built from scratch.
+It has always been so rewarding reading other netizens blogs, that the only way to repay back is to start the good work yourself.
+
+This blog is dedicated to the idea of *learning by sharing*. Thanks to [`markdown`] [markdown], the best blogging language out there.
+
+[markdown]: http://daringfireball.net/projects/markdown/
 
 How to use?
 --------------
@@ -23,12 +27,12 @@ How it works?
 
 The whole site source is in `src/` folder. All posts are maintained in markdown format. Only the `common-header.html` and `common-footer.html` files are pure html5.
 
-The site is generated from all the markdown files and the two html files. The process is as straight forward as, converting the `.md` files to html5 format and sandwitching it between the `common-header.html` and `common-footer.html` files. Thats all.
+The site is generated from all the markdown files and the two html files. The process is as straight forward as, converting the `.md` files to html5 format and sandwiching it between the `common-header.html` and `common-footer.html` files. That's all.
 
-The `index.html` is also basically a markdown file built by the ordered concatication (`cat`) of:
+The `index.html` is also basically a markdown file built by the ordered concatenation (`cat`) of:
 
 1. `common-header.html`
-2. `index.tmp` (`$ markdown index.md > index.tmp`)
+2. `index.tmp.html` (`$ markdown index.md > index.tmp.html`)
 3. `common-footer.html`
 
 The `make` program takes care of building the full site properly from the `.md` files.

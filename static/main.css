@@ -29,6 +29,7 @@
     padding: 10px;
     text-align:left;
     border-radius:5px;
+    font-size:2.5em;
 }
 
 .footer {
@@ -81,4 +82,20 @@
     background-color: #0099cc;
 }
 
+code {
+    background-color: #EDEDED;
+    padding:1px;
+    border-radius:2px;
+}
+
+pre code {
+    display: block;
+    background-color: #DDDDDD;
+    padding: 5px;
+    border-radius:5px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #DD4400;
+}
 

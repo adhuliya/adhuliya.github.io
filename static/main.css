@@ -6,16 +6,8 @@
 
 /*
 @media screen and (max-width:749px) {
-    div.content {
-        max-width: 95%;
-        background-color: #FFFFFF;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 */
-
-
 
 * {
     box-sizing: border-box;
@@ -35,7 +27,7 @@
 .footer {
     background-color: #DD5500;
     color: white;
-    padding: 15px;
+    padding: 10px;
     text-align:center;
     border-radius:7px;
 }
@@ -74,12 +66,13 @@
 .menu li {
     padding: 8px;
     margin-bottom: 8px;
-    background-color: #33b5e5;
+    background-color: #33a4e5;
     color: #ffffff;
     border-radius:3px;
 }
+
 .menu li:hover {
-    background-color: #0099cc;
+    background-color: #0088cc;
 }
 
 code {
@@ -100,5 +93,10 @@ pre code {
 h1,h2,h3,h4,h5,h6 {
     color: #DD4400;
 }
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
 
 

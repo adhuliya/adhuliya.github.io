@@ -61,7 +61,7 @@ How to use?
 
 * Open the `index.md` file and add the link to the file : `<logicalname>.html`
 
-* run
+* run this,
 
         src/ $ make
 
